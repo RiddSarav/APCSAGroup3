@@ -8,7 +8,17 @@ through one runner.
 ## Team Contributions
 
 - **Morgan and Dhruv** developed the noun portion of the program `MadLibs.java` over a few days and they iterated when one version failed. They also forked the repo and sent a pull request when the code was done. 
-- **Tiger and Vandith** developed the adjective and verb portion in `Bao_MadLibs.java`.
+- **Tiger and Vandith** developed the adjective and verb portion in `Bao_MadLibs.java`. They also forked the repo and send a pull request when the code was finished. Below is what Tiger wrote as a report:
+
+On Monday, our group mainly organized ourselves. Vandhith and I were paired to work on a solution for handling verbs and adjectives while the others managed nouns and others.
+I proposed and began to work on a function that would ask the user for an input and return said input. 
+With Vandhith's help, I was able to make the function (called askReceive).
+
+On Tuesday, we implemented the main class that put together the mad libs. We also noticed some issues with the askReceive function, which we fixed.
+
+On Wednesday, Vandhith noticed a flaw in main, which we fixed. I then made the fork in the repository.
+I also realized that I misspelled askReceive as askRecieve while typing this, so I asked the others to change it in the merged code.
+
 - **Riddhish** I was the team lead, coordinated the team's work, and combined both portions through `runner.java`. I also realized we needed to display the original story template with blanks BEFORE the final madlib so I added that functionality too. 
 
 ## How the Program Works
