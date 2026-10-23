@@ -10,23 +10,11 @@ public class Bao_MadLibs {
         return result;
     }
     
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
+    public static String[] collectWords(Scanner sc) {
         // ask for all required input
         String firstVerb = askRecieve("Enter a verb: ", sc);
-        String firstAdj= askRecieve("Enter a adjective: ", sc);
+        String firstAdj = askRecieve("Enter an adjective: ", sc);
         String secondVerb = askRecieve("Enter a verb: ", sc);
-
-        //print out
-        System.out.print("I " + firstVerb + " with the " + firstAdj + " <noun>. The <plural_noun> and the <number> beasts " + secondVerb + " there.");
-        sc.close();
+        return new String[] {firstVerb, firstAdj, secondVerb};
     }
-    
 }
-
-/*
-we do verbs and adj
-I <verb> with the <adjective> <noun>; the <plural_noun> and the <number> beasts <verb> there.             
-
-*/
