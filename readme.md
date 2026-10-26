@@ -46,8 +46,8 @@ Test case 1:
 I [verb] with the [adjective] [noun]. Each [noun] was amazing, and I [second verb] with them a lot.
 
 Test case 2:
- The [noun] [verb] across the [adjective] pond
+The [noun] [verb] across the [adjective] pond to get to the [adjective] frog but it was [verb]ing.
 
 Test case 3:
-I went to the zoo to see a [noun]. There were people [verb] around the enclosure which made the [adjective] apes go bananas.
+I went to the zoo to see a [adjective] [noun]. There were people [verb] around the enclosure which made the [adjective] apes go bananas and it started to [verb].
 
