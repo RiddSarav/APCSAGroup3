@@ -37,8 +37,16 @@ We used Github for version control and to share our project files in the
 ## What went well
 Dividing the work was a huge reason it worked out in a timely way. In the future I'd like to continue dividing but also have some sort of central system like the plugin Mr.Baez showed us that everyone can use and track the entirety of the project at a glance instead of just their part. 
 
-## How to Run it
+## Example Image
+<img width="1814" height="716" alt="image" src="https://github.com/user-attachments/assets/46699903-5af8-4c22-adfb-b660522725fc" />
 
+## Test Cases
 
-javac runner.java
-java runner.java
+Test case 1:
+I [verb] with the [adjective] [noun]. Each [noun] was amazing, and I [second verb] with them a lot.
+
+Test case 2:
+The [adjective] school had many students who [verb] regularly. All of the [noun]'s were [verb]ing together towards the [adjective] line. 
+
+Test case 3:
+I [verb] quickly to get to the [adjective] classroom before it fills up. The [noun] was extremely [adjective] so I made sure to [verb] with it. 
