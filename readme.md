@@ -19,7 +19,7 @@ On Tuesday, we implemented the main class that put together the mad libs. We als
 On Wednesday, Vandhith noticed a flaw in main, which we fixed. I then made the fork in the repository.
 I also realized that I misspelled askReceive as askRecieve while typing this, so I asked the others to change it in the merged code.
 
-- **Riddhish** I was the team lead, coordinated the team's work, and combined both portions through `runner.java`. I also realized we needed to display the original story template with blanks BEFORE the final madlib so I added that functionality too. 
+- **Riddhish** I was the team lead, coordinated the team's work, and combined both portions through `runner.java`. I also realized we needed to display the original story template with blanks BEFORE the final MadLib so I added that functionality too. Finally I saw that some of the casing was wrong and I helped Dhruv and Morgan fix the issue with indexOf and substring so I helped them finish that. 
 
 ## How the Program Works
 
