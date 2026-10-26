@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MadLibs {
+public class Kamat_MadLibs {
     public static String askReceive(String ask, Scanner sc) {
 
 
