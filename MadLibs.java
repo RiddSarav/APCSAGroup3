@@ -2,16 +2,17 @@ import java.util.Scanner;
 
 public class MadLibs {
     public static String askReceive(String ask, Scanner sc) {
-        System.out.println(ask);
+
+
+        int bracket1 = ask.indexOf("[");
+        int bracket2=ask.indexOf("]", bracket1);
+        String whatType = ask.substring(bracket1 + 1, bracket2);
+        System.out.println("What is your " + whatType);
         String result = sc.nextLine(); 
-        return result;
-    }
-       
-    public static String createStory(Scanner sc, String firstVerb,
-                                     String firstAdj, String secondVerb) {
-        // Verbs and the adjective come from Bao_MadLibs; only ask for nouns here.
-        String firstnoun = askReceive("Enter a noun:", sc);
-        String secondnoun = askReceive("Enter a noun:", sc);
-        return "I " + firstVerb + " with the " + firstAdj + " " + firstnoun + ". Each " + secondnoun + " was amazing, and I " + secondVerb + " with them a lot.";
+
+        String beforeInput = ask.substring(0,bracket1);
+        String afterInput = ask.substring(bracket2+1);
+        return beforeInput + result + afterInput;
+
     }
 }
