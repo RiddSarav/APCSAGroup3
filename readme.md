@@ -46,7 +46,8 @@ Test case 1:
 I [verb] with the [adjective] [noun]. Each [noun] was amazing, and I [second verb] with them a lot.
 
 Test case 2:
-The [adjective] school had many students who [verb] regularly. All of the [noun]'s were [verb]ing together towards the [adjective] line. 
+ The [noun] [verb] across the [adjective] pond
 
 Test case 3:
-I [verb] quickly to get to the [adjective] classroom before it fills up. The [noun] was extremely [adjective] so I made sure to [verb] with it. 
+I went to the zoo to see a [noun]. There were people [verb] around the enclosure which made the [adjective] apes go bananas.
+
