@@ -17,4 +17,13 @@ public class Bao_MadLibs {
         String secondVerb = askReceive("Enter a verb: ", sc);
         return new String[] {firstVerb, firstAdj, secondVerb};
     }
+    public static String replacePlaceHolder(String ask, Scanner sc) {
+        int bracket1 = ask.indexOf("[");
+        int bracket2 = ask.indexOf("]", bracket1);
+        String whatType = ask.substring(bracket1 + 1, bracket2);
+        String result = askReceive("What is your " + whatType, sc);
+        String beforeInput = ask.substring(0, bracket1);
+        String afterInput = ask.substring(bracket2 + 1);
+        return beforeInput + result + afterInput;
+    }
 }
