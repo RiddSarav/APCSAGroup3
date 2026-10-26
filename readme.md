@@ -1,14 +1,11 @@
 # APCSA Group 3 (AKA: The Dhruv Kamats): Mad Libs Project
 
-Our project is an interactive Java Mad Libs program. The user enters two verbs,
-an adjective, and two nouns, and the program combines those words into a
-personalized story. We built separate parts of the program and connected them
-through one runner.
 
 ## Team Contributions
 
-- **Morgan and Dhruv** developed the noun portion of the program `MadLibs.java` over a few days and they iterated when one version failed. They also forked the repo and sent a pull request when the code was done. 
-- **Tiger and Vandith** developed the adjective and verb portion in `Bao_MadLibs.java`. They also forked the repo and send a pull request when the code was finished. Below is what Tiger wrote as a report:
+- **Morgan and Dhruv** developed `Kamat_MadLibs.java`, which the runner uses to fill the two noun blanks. The 'askRecieve' method finds the first and last brackets and then extracts the input needed inside the brackets to ask the user for input to fill those in. They worked on it over a few days and iterated when the first version wasn't following the rubric. 
+
+- **Tiger and Vandith** developed `Bao_MadLibs.java`, which the runner uses to fill the verb and adjective blanks. The 'askRecieve' method shows a prompt then asks for an input whereas 'replacePlaceHolder' takes each input to go one-by-one and fill in the story one input at a time. They also forked the repo and sent a pull request when the code was finished. Below is what Tiger wrote as a report:
 
 On Monday, our group mainly organized ourselves. Vandhith and I were paired to work on a solution for handling verbs and adjectives while the others managed nouns and others.
 I proposed and began to work on a function that would ask the user for an input and return said input. 
@@ -19,14 +16,8 @@ On Tuesday, we implemented the main class that put together the mad libs. We als
 On Wednesday, Vandhith noticed a flaw in main, which we fixed. I then made the fork in the repository.
 I also realized that I misspelled askReceive as askRecieve while typing this, so I asked the others to change it in the merged code.
 
-- **Riddhish** I was the team lead, coordinated the team's work, and combined both portions through `runner.java`. I also realized we needed to display the original story template with blanks BEFORE the final MadLib so I added that functionality too. Finally I saw that some of the casing was wrong and I helped Dhruv and Morgan fix the issue with indexOf and substring so I helped them finish that. 
+- **Riddhish** I was the team lead, coordinated the team's work, and combined both portions through `runner.java` which uses methods form both files. I also realized we needed to display the original story template with blanks BEFORE the final madlib so I added that functionality too. 
 
-## How the Program Works
-
-`runner.java` first calls `Bao_MadLibs.collectWords` to collect two verbs and an
-adjective. It then passes those words to `MadLibs.createStory`, which asks for two
-nouns and builds the completed story. The runner prints the orginal template and result. Both parts
-use one scanner so it stays open until everything's been entered.
 
 ## How We Used Git
 
@@ -37,8 +28,10 @@ We used Github for version control and to share our project files in the
 ## What went well
 Dividing the work was a huge reason it worked out in a timely way. In the future I'd like to continue dividing but also have some sort of central system like the plugin Mr.Baez showed us that everyone can use and track the entirety of the project at a glance instead of just their part. 
 
-## Example Image
+## Example Images
 <img width="1814" height="716" alt="image" src="https://github.com/user-attachments/assets/46699903-5af8-4c22-adfb-b660522725fc" />
+<img width="1608" height="552" alt="image" src="https://github.com/user-attachments/assets/5f60f029-8e00-41d2-8559-c8625ef7e155" />
+<img width="1598" height="612" alt="image" src="https://github.com/user-attachments/assets/a63cc47c-66cf-4e35-bc29-757c00dc1f55" />
 
 ## Test Cases
 
