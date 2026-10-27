@@ -28,9 +28,12 @@ We used Github for version control and to share our project files in the
 ## What went well
 Dividing the work was a huge reason it worked out in a timely way. In the future I'd like to continue dividing but also have some sort of central system like the plugin Mr.Baez showed us that everyone can use and track the entirety of the project at a glance instead of just their part. 
 
+## An issue we ran into
+After making edits we would have compile errors that were a result of having old .class files and once we deleted them and then ran javac runner.java again and then runner.java everything worked. 
+
 ## Example Images
 <img width="1814" height="716" alt="image" src="https://github.com/user-attachments/assets/46699903-5af8-4c22-adfb-b660522725fc" />
-<img width="1608" height="552" alt="image" src="https://github.com/user-attachments/assets/5f60f029-8e00-41d2-8559-c8625ef7e155" />
+<img width="1594" height="602" alt="image" src="https://github.com/user-attachments/assets/885716f4-a637-437a-be2c-432ae62b65a9" />
 <img width="1598" height="612" alt="image" src="https://github.com/user-attachments/assets/a63cc47c-66cf-4e35-bc29-757c00dc1f55" />
 
 ## Test Cases
